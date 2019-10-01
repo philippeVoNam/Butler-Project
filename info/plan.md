@@ -13,3 +13,9 @@
     - fetches my schedule
     - processes schedule data
 
+- class Timer
+    - runs a timer
+    - when the timer is done :
+        - say go to break
+        - say go back to study/work
+    - records all sessions inside a log file

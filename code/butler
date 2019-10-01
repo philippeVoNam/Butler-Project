@@ -1,0 +1,41 @@
+#!/usr/bin/env python
+ # * author : Philippe Vo 
+ # * date : Sep-28-2019 23:50:08
+ 
+# * Imports
+# 3rd Party Imports
+import argparse
+# User Imports
+from Butler import Butler
+
+# * Code
+butler = Butler()
+
+# CLI Parser
+parser = argparse.ArgumentParser()
+group = parser.add_mutually_exclusive_group()
+parser.add_argument('--report', action='store_true')
+
+parser.add_argument('--timer', action='store_true')
+parser.add_argument('--mode', action='store', type=str)
+parser.add_argument('--endTime', action='store', type=int)
+group.add_argument('--sec', action='store_true')
+group.add_argument('--min', action='store_true')
+group.add_argument('--hour', action='store_true')
+args = parser.parse_args()
+
+# * Init all the setup variables
+# Note Type
+if args.report:
+    butler.report()
+elif args.timer:
+    mode = args.mode
+    if args.sec:
+        timeType = "seconds"
+    elif args.min:
+        timeType = "mins"
+    elif args.hour:
+        timeType = "hours"
+    endTime = args.endTime
+    
+    butler.run_timer(mode,timeType,endTime)
