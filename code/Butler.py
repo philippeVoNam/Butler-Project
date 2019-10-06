@@ -6,10 +6,12 @@
 import datetime
 from gtts import gTTS # text to speech
 import os
+import time
 # User Imports
 from Weather import Weather
 from Schedule import Schedule
 from Timer import Timer
+from Screenshot import Screenshot
 
 # * Code
 class Butler():
@@ -47,12 +49,12 @@ class Butler():
     def report(self): 
         """ report status of day """
         # Report
-        self.text_to_speech(self.generate_greeting())
-        self.text_to_speech("Today is " + self.date)
-        self.text_to_speech("The current time is " + self.time)
-        self.text_to_speech(self.process_weather_info())
+        self.text_to_speech(self.generate_greeting(), False)
+        self.text_to_speech("Today is " + self.date, False)
+        self.text_to_speech("The current time is " + self.time, False)
+        self.text_to_speech(self.process_weather_info(), False)
         print("\n")
-        self.text_to_speech("You have " + self.timeToLeave + " before leaving the house")
+        self.text_to_speech("You have " + self.timeToLeave + " before leaving the house", False)
 
     def generate_greeting(self) :
         """ generates a greeting based on time """
@@ -68,18 +70,21 @@ class Butler():
 
         return self.greeting
 
-    def text_to_speech(self, text):
+    def text_to_speech(self, text, talkFlag):
         """ converts the text into speech and speaks it """
         # prints the speech
         print(text)
+        
+        if talkFlag:
+            # define variables
+            file = "file.mp3"
 
-        # define variables
-        file = "file.mp3"
-
-        # initialize tts, create mp3 and play
-        tts = gTTS(text, 'en')
-        tts.save(file)
-        os.system("mpg123 " + file + " >/dev/null 2>&1") # >dev/null... it is to supress the output string from the command 
+            # initialize tts, create mp3 and play
+            tts = gTTS(text, 'en')
+            tts.save(file)
+            os.system("mpg123 " + file + " >/dev/null 2>&1") # >dev/null... it is to supress the output string from the command 
+        else:
+            time.sleep(0.35)
 
     def process_weather_info(self):
         """ get weather and tells what is needed for the day """
@@ -117,3 +122,9 @@ class Butler():
         os.system("mpg123 " + " /home/namv/Documents/Personal_Projects/Personal_Board/alarm.mp3 " + " >/dev/null 2>&1") # >dev/null... it is to supress the output string from the command 
         self.text_to_speech(printOut)
         self.text_to_speech(message)
+
+    def grab_screen(self):
+        """ takes a screenshot and return the markdown string in the system clipboard """
+        print("May I take a Screenshot for you Sifu ?")
+        screengrab = Screenshot()
+        screengrab.grab_screen()

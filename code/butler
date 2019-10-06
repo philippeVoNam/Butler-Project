@@ -16,6 +16,8 @@ parser = argparse.ArgumentParser()
 group = parser.add_mutually_exclusive_group()
 parser.add_argument('--report', action='store_true')
 
+parser.add_argument('--screen', action='store_true')
+
 parser.add_argument('--timer', action='store_true')
 parser.add_argument('--mode', action='store', type=str)
 parser.add_argument('--endTime', action='store', type=int)
@@ -28,6 +30,7 @@ args = parser.parse_args()
 # Note Type
 if args.report:
     butler.report()
+
 elif args.timer:
     mode = args.mode
     if args.sec:
@@ -39,3 +42,6 @@ elif args.timer:
     endTime = args.endTime
     
     butler.run_timer(mode,timeType,endTime)
+
+elif args.screen:
+    butler.grab_screen()
