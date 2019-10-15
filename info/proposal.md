@@ -9,3 +9,4 @@ This project goal is to automate my monrings.
 - What I need to do that day :
     - work
     - school 
+- 
