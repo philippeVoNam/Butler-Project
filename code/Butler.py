@@ -114,14 +114,14 @@ class Butler():
 
     def run_timer(self, mode, timeType, endTime):
         """ runs the timer and speaks the message at the end """
-        self.text_to_speech("You needed a timer Sifu Nam ?")
-        self.text_to_speech("Please press on ENTER to begin the timer")
+        self.text_to_speech("You needed a timer Sifu Nam ?", False)
+        self.text_to_speech("Please press on ENTER to begin the timer", False)
         timer = Timer()
         printOut , message = timer.run_timer(mode, timeType, endTime)
         # sound alarm and speak the message 
         os.system("mpg123 " + " /home/namv/Documents/Personal_Projects/Personal_Board/alarm.mp3 " + " >/dev/null 2>&1") # >dev/null... it is to supress the output string from the command 
-        self.text_to_speech(printOut)
-        self.text_to_speech(message)
+        self.text_to_speech(printOut, False)
+        self.text_to_speech(message, False)
 
     def grab_screen(self):
         """ takes a screenshot and return the markdown string in the system clipboard """

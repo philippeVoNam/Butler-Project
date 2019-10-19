@@ -10,5 +10,6 @@ Daily task such as :
     - based on the weather, what kind of clothing do I need.
 - taking a screenshot, saving the image in current folder and generating the appropriate markdown string.
 - running a timer and alerting me to study or have a break.
+- checking my schedule of the day, and reminding me what to do at what time. 
 
 ## Installation
