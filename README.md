@@ -12,4 +12,6 @@ Daily task such as :
 - running a timer and alerting me to study or have a break.
 - checking my schedule of the day, and reminding me what to do at what time. 
 
-## Installation
+## Known Issues
+* [ ] If we are at the end of the day (ie no more task to do), returns error.
+  * [ ] That is because there is no more task and that condition has not been handled

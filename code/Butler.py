@@ -7,6 +7,10 @@ import datetime
 from gtts import gTTS # text to speech
 import os
 import time
+from termcolor import colored, cprint
+from datetime import datetime
+import sys
+import notify2
 # User Imports
 from Weather import Weather
 from Schedule import Schedule
@@ -31,7 +35,7 @@ class Butler():
         self.masterName = "Sifu Nam"
 
         # Datetime
-        datetimeInfo = datetime.datetime.now()
+        datetimeInfo = datetime.now()
         self.date = datetimeInfo.strftime("%A, %B %d %Y")
         self.time = datetimeInfo.strftime("%X")
         self.hour = int(datetimeInfo.hour)
@@ -43,8 +47,8 @@ class Butler():
         self.generalWeatherStatus = weatherController.get_weather_status()
 
         # Schedule Info
-        scheduleController = Schedule()
-        self.timeToLeave = scheduleController.hourBLH + " hours" + " and " + scheduleController.mBLH + " mins"
+        self.scheduleController = Schedule()
+        self.timeToLeave = self.scheduleController.hourBLH + " hours" + " and " + self.scheduleController.mBLH + " mins"
 
     def report(self): 
         """ report status of day """
@@ -128,3 +132,49 @@ class Butler():
         print("May I take a Screenshot for you Sifu ?")
         screengrab = Screenshot()
         screengrab.grab_screen()
+
+    def announce_current_task(self):
+        """ prints out the current task I should be doing """
+        task = self.scheduleController.current_task()
+
+        message = "Started Task : " +  task["task"]
+        self.notify("Task Status",message)
+
+        taskName = "Task Name : " + colored(task["task"], 'red', attrs=['bold'])
+        startTime = "Start Time : " + colored(task["startTime"], 'blue', attrs=['bold'])
+        endTime = "End Time : " + colored(task["endTime"], 'green', attrs=['bold'])
+
+        self.text_to_speech(taskName, False)
+        self.text_to_speech(startTime, False)
+        self.text_to_speech(endTime, False)
+
+        now = datetime.now()
+        endTime = task["endTime"].split(":")
+        endTime = now.replace(hour=int(endTime[0]), minute=int(endTime[1]), second=0, microsecond=0)
+        
+        while now < endTime:
+            now = datetime.now()
+            endTime = task["endTime"].split(":")
+            endTime = now.replace(hour=int(endTime[0]), minute=int(endTime[1]), second=0, microsecond=0)
+            durationRemaining = str(endTime - now)
+            durationRemaining = "Duration Remaining : " + colored(durationRemaining, 'white', attrs=['bold'])
+            print(durationRemaining, end="\r", flush=True)
+            time.sleep(1)
+
+        # Task Done messages
+        print("")
+        print("Task Done")
+
+        message = "Done with : " +  task["task"]
+        self.notify("Task Status",message)
+
+    def show_day_tasks(self):
+        """ prints out the task of the day """ 
+        print(self.scheduleController.day_tasks())
+
+    def notify(self, title, message):
+
+        notify2.init(title)
+        n = notify2.Notification(title, message)
+        n.show()
+        

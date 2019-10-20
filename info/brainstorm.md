@@ -104,3 +104,8 @@ with open('data.json') as json_file:
   - get current time string 
 
 - tables : from terminaltables import AsciiTable
+
+- need to make the data ordered -> already ordered 
+
+- how to know at which task i am at , according to current time
+  - go through the list one by one (ordered) -> then checking for less than, if yes -> then take the task just before that one (current index - 1)

@@ -5,6 +5,7 @@
 # * Imports
 # 3rd Party Imports
 import argparse
+import sys, select, os
 # User Imports
 from Butler import Butler
 
@@ -17,6 +18,9 @@ group = parser.add_mutually_exclusive_group()
 parser.add_argument('--report', action='store_true')
 
 parser.add_argument('--screen', action='store_true')
+
+parser.add_argument('--task', action='store_true')
+parser.add_argument('--day', action='store_true')
 
 parser.add_argument('--timer', action='store_true')
 parser.add_argument('--mode', action='store', type=str)
@@ -45,3 +49,11 @@ elif args.timer:
 
 elif args.screen:
     butler.grab_screen()
+
+elif args.task:
+    if args.day:
+        butler.show_day_tasks()
+    else:
+        i = 0
+        while True:
+            butler.announce_current_task()

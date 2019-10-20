@@ -7,16 +7,160 @@
             "duration": ""
         },
         {
-            "task": "Go To School",
+            "task": "Go to School",
             "startTime": "07:30",
             "endTime": "",
             "duration": ""
         },
         {
-            "task": "",
-            "startTime": "stackabuse.com",
-            "endTime": "Nebraska",
-            "duration": "10"
+            "task": "DropGenie",
+            "startTime": "08:30",
+            "endTime": "12:30",
+            "duration": "330"
+        },
+        {
+            "task": "Lunch/Break",
+            "startTime": "12:30",
+            "endTime": "01:00",
+            "duration": "30"
+        },
+        {
+            "task": "COEN-317 Study",
+            "startTime": "13:00",
+            "endTime": "13:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "13:25",
+            "endTime": "13:30",
+            "duration": "5"
+        },
+        {
+            "task": "ENGR-392 Study",
+            "startTime": "13:30",
+            "endTime": "13:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "13:55",
+            "endTime": "14:00",
+            "duration": "5"
+        },
+        {
+            "task": "ELEC-342 Study",
+            "startTime": "14:00",
+            "endTime": "14:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "14:25",
+            "endTime": "14:30",
+            "duration": "25"
+        },
+        {
+            "task": "COEN-316 Study",
+            "startTime": "14:30",
+            "endTime": "14:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "14:55",
+            "endTime": "15:00",
+            "duration": "5"
+        },
+        {
+            "task": "COEN-317 Study",
+            "startTime": "15:00",
+            "endTime": "15:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "15:25",
+            "endTime": "15:30",
+            "duration": "5"
+        },
+        {
+            "task": "ENGR-392 Study",
+            "startTime": "15:30",
+            "endTime": "15:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "15:55",
+            "endTime": "16:00",
+            "duration": "5"
+        },
+        {
+            "task": "ELEC-342 Study",
+            "startTime": "16:00",
+            "endTime": "16:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "16:25",
+            "endTime": "16:30",
+            "duration": "5"
+        },
+        {
+            "task": "COEN-316 Study",
+            "startTime": "16:30",
+            "endTime": "16:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "16:55",
+            "endTime": "17:00",
+            "duration": "5"
+        },
+        {
+            "task": "COEN-317 Study",
+            "startTime": "17:00",
+            "endTime": "17:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "17:25",
+            "endTime": "17:30",
+            "duration": "5"
+        },
+        {
+            "task": "ENGR-392 Study",
+            "startTime": "17:30",
+            "endTime": "17:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "17:55",
+            "endTime": "18:00",
+            "duration": "5"
+        },
+        {
+            "task": "ELEC-342 Study",
+            "startTime": "18:00",
+            "endTime": "18:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break/Walk",
+            "startTime": "18:25",
+            "endTime": "18:30",
+            "duration": "5"
+        },
+        {
+            "task": "Free Study",
+            "startTime": "18:30",
+            "endTime": "21:00",
+            "duration": "180"
         }
     ],
     "Tuesday": [
@@ -101,73 +245,73 @@
         {
             "task": "COEN-316 Class",
             "startTime": "11:45",
-            "endTime": "01:00",
+            "endTime": "13:00",
             "duration": "75"
         },
         {
             "task": "Lunch/Break",
-            "startTime": "01:00",
-            "endTime": "02:00",
+            "startTime": "13:00",
+            "endTime": "14:00",
             "duration": "60"
         },
         {
             "task": "Clerical Work - Email, General Todos",
-            "startTime": "02:00",
-            "endTime": "02:25",
+            "startTime": "14:00",
+            "endTime": "14:25",
             "duration": "25"
         },
         {
             "task": "COEN-317 Class",
-            "startTime": "02:45",
-            "endTime": "04:00",
+            "startTime": "14:45",
+            "endTime": "16:00",
             "duration": "75"
         },
         {
             "task": "Break",
-            "startTime": "04:00",
-            "endTime": "04:05",
+            "startTime": "16:00",
+            "endTime": "16:16",
             "duration": "5"
         },
         {
             "task": "ELEC-342 Study",
-            "startTime": "04:05",
-            "endTime": "04:30",
+            "startTime": "16:16",
+            "endTime": "16:30",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "04:30",
-            "endTime": "04:35",
+            "startTime": "16:30",
+            "endTime": "16:35",
             "duration": "5"
         },
         {
             "task": "ENGR-392 Study",
-            "startTime": "04:35",
-            "endTime": "05:00",
+            "startTime": "16:35",
+            "endTime": "16:00",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "05:00",
-            "endTime": "05:05",
+            "startTime": "16:00",
+            "endTime": "17:05",
             "duration": "5"
         },
         {
             "task": "DropGenie",
-            "startTime": "05:05",
-            "endTime": "07:00",
+            "startTime": "17:05",
+            "endTime": "19:00",
             "duration": "115"
         },
         {
             "task": "Break",
-            "startTime": "07:00",
-            "endTime": "07:05",
+            "startTime": "19:00",
+            "endTime": "19:05",
             "duration": "5"
         },
         {
             "task": "Free Study",
-            "startTime": "07:05",
-            "endTime": "09:00",
+            "startTime": "19:05",
+            "endTime": "21:00",
             "duration": "115"
         }
     ],
@@ -253,73 +397,73 @@
         {
             "task": "ELEC-3432 Class",
             "startTime": "11:45",
-            "endTime": "01:00",
+            "endTime": "13:00",
             "duration": "75"
         },
         {
             "task": "Lunch/Break",
-            "startTime": "01:00",
-            "endTime": "02:00",
+            "startTime": "13:00",
+            "endTime": "14:00",
             "duration": "60"
         },
         {
             "task": "Clerical Work - Email, General Todos",
-            "startTime": "02:00",
-            "endTime": "02:25",
+            "startTime": "14:00",
+            "endTime": "14:25",
             "duration": "25"
         },
         {
             "task": "ENGR-392 Class",
-            "startTime": "02:45",
-            "endTime": "05:30",
+            "startTime": "14:45",
+            "endTime": "17:30",
             "duration": "165"
         },
         {
             "task": "Break",
-            "startTime": "05:30",
-            "endTime": "05:35",
+            "startTime": "17:30",
+            "endTime": "17:35",
             "duration": "5"
         },
         {
             "task": "COEN-316 Study",
-            "startTime": "05:35",
-            "endTime": "06:00",
+            "startTime": "17:35",
+            "endTime": "18:00",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "06:00",
-            "endTime": "06:05",
+            "startTime": "18:00",
+            "endTime": "18:05",
             "duration": "5"
         },
         {
             "task": "COEN-317 Study",
-            "startTime": "06:05",
-            "endTime": "06:30",
+            "startTime": "18:05",
+            "endTime": "18:30",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "06:30",
-            "endTime": "06:35",
+            "startTime": "18:30",
+            "endTime": "18:35",
             "duration": "5"
         },
         {
             "task": "DropGenie",
-            "startTime": "06:35",
-            "endTime": "07:00",
+            "startTime": "18:35",
+            "endTime": "19:00",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "07:00",
-            "endTime": "07:05",
+            "startTime": "19:00",
+            "endTime": "19:05",
             "duration": "5"
         },
         {
             "task": "Free Study",
-            "startTime": "07:05",
-            "endTime": "09:00",
+            "startTime": "19:05",
+            "endTime": "21:00",
             "duration": "115"
         }
     ],
@@ -387,73 +531,73 @@
         {
             "task": "COEN-316 Class",
             "startTime": "11:45",
-            "endTime": "01:00",
+            "endTime": "13:00",
             "duration": "75"
         },
         {
             "task": "Lunch/Break",
-            "startTime": "01:00",
-            "endTime": "02:00",
+            "startTime": "13:00",
+            "endTime": "14:00",
             "duration": "60"
         },
         {
             "task": "Clerical Work - Email, General Todos",
-            "startTime": "02:00",
-            "endTime": "02:25",
+            "startTime": "14:00",
+            "endTime": "14:25",
             "duration": "25"
         },
         {
             "task": "COEN-317 Class",
-            "startTime": "02:45",
-            "endTime": "04:00",
+            "startTime": "14:45",
+            "endTime": "16:00",
             "duration": "75"
         },
         {
             "task": "Break",
-            "startTime": "04:00",
-            "endTime": "04:05",
+            "startTime": "16:00",
+            "endTime": "16:05",
             "duration": "5"
         },
         {
             "task": "ELEC-342 Study",
-            "startTime": "04:05",
-            "endTime": "04:30",
+            "startTime": "16:05",
+            "endTime": "16:30",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "04:30",
-            "endTime": "04:35",
+            "startTime": "16:30",
+            "endTime": "16:35",
             "duration": "5"
         },
         {
             "task": "ENGR-392 Study",
-            "startTime": "04:35",
-            "endTime": "05:00",
+            "startTime": "16:35",
+            "endTime": "17:00",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "05:00",
-            "endTime": "05:05",
+            "startTime": "17:00",
+            "endTime": "17:05",
             "duration": "5"
         },
         {
             "task": "DropGenie",
-            "startTime": "05:05",
-            "endTime": "07:00",
+            "startTime": "17:05",
+            "endTime": "19:00",
             "duration": "115"
         },
         {
             "task": "Break",
-            "startTime": "07:00",
-            "endTime": "07:05",
+            "startTime": "19:00",
+            "endTime": "19:05",
             "duration": "5"
         },
         {
             "task": "Free Study",
-            "startTime": "07:05",
-            "endTime": "09:00",
+            "startTime": "19:05",
+            "endTime": "21:00",
             "duration": "115"
         }
     ],
@@ -527,25 +671,25 @@
         {
             "task": "ELEC-342 Class",
             "startTime": "11:45",
-            "endTime": "01:00",
+            "endTime": "13:00",
             "duration": "5"
         },
         {
             "task": "ELEC-342 Tutorial",
-            "startTime": "01:15",
-            "endTime": "02:05",
+            "startTime": "13:15",
+            "endTime": "14:05",
             "duration": "50"
         },
         {
             "task": "Lunch/Break",
-            "startTime": "02:05",
-            "endTime": "03:00",
+            "startTime": "14:16",
+            "endTime": "15:00",
             "duration": "55"
         },
         {
             "task": "DropGenie",
-            "startTime": "03:00",
-            "endTime": "08:00",
+            "startTime": "15:00",
+            "endTime": "20:00",
             "duration": "300"
         }
     ],
@@ -607,109 +751,273 @@
         {
             "task": "Lunch/Break",
             "startTime": "11:55",
-            "endTime": "01:00",
+            "endTime": "13:00",
             "duration": "55"
         },
         {
             "task": "COEN-316 Study",
-            "startTime": "01:00",
-            "endTime": "01:25",
+            "startTime": "13:00",
+            "endTime": "13:25",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "01:25",
-            "endTime": "01:30",
+            "startTime": "13:25",
+            "endTime": "13:30",
             "duration": "5"
         },
         {
             "task": "COEN-317 Study",
-            "startTime": "01:30",
-            "endTime": "01:55",
+            "startTime": "13:30",
+            "endTime": "13:55",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "01:55",
-            "endTime": "02:00",
+            "startTime": "13:55",
+            "endTime": "14:00",
             "duration": "5"
         },
         {
             "task": "ENGR-392 Study",
-            "startTime": "02:00",
-            "endTime": "02:25",
+            "startTime": "14:00",
+            "endTime": "14:25",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "02:25",
-            "endTime": "02:30",
+            "startTime": "14:25",
+            "endTime": "14:30",
             "duration": "5"
         },
         {
             "task": "ELEC-342 Study",
-            "startTime": "02:30",
-            "endTime": "02:55",
+            "startTime": "14:30",
+            "endTime": "14:55",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "02:55",
-            "endTime": "03:00",
+            "startTime": "14:55",
+            "endTime": "15:00",
             "duration": "5"
         },
         {
             "task": "COEN-316 Study",
-            "startTime": "03:00",
-            "endTime": "03:25",
+            "startTime": "15:00",
+            "endTime": "15:25",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "03:25",
-            "endTime": "03:30",
+            "startTime": "15:25",
+            "endTime": "15:30",
             "duration": "5"
         },
         {
             "task": "COEN-317 Study",
-            "startTime": "03:30",
-            "endTime": "03:55",
+            "startTime": "15:30",
+            "endTime": "15:55",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "03:55",
-            "endTime": "04:00",
+            "startTime": "15:55",
+            "endTime": "16:00",
             "duration": "5"
         },
         {
             "task": "ENGR-392 Study",
-            "startTime": "04:00",
-            "endTime": "04:25",
+            "startTime": "16:00",
+            "endTime": "16:25",
             "duration": "25"
         },
         {
             "task": "Break",
-            "startTime": "04:25",
-            "endTime": "04:30",
+            "startTime": "16:25",
+            "endTime": "16:30",
             "duration": "5"
         },
         {
             "task": "ELEC-342 Study",
-            "startTime": "04:30",
-            "endTime": "04:55",
+            "startTime": "16:30",
+            "endTime": "16:55",
             "duration": "25"
         },
         {
             "task": "Relax and Game Break",
-            "startTime": "04:55",
-            "endTime": "06:00",
+            "startTime": "16:55",
+            "endTime": "18:00",
             "duration": "65"
         },
         {
             "task": "DropGenie",
-            "startTime": "06:00",
-            "endTime": "09:00",
+            "startTime": "18:00",
+            "endTime": "21:00",
+            "duration": "180"
+        }
+    ],
+    "Sunday": [
+        {
+            "task": "Wake Up !",
+            "startTime": "09:00",
+            "endTime": "",
+            "duration": ""
+        },
+        {
+            "task": "Breakfast",
+            "startTime": "09:30",
+            "endTime": "10:00",
+            "duration": "30"
+        },
+        {
+            "task": "COEN-316 Study",
+            "startTime": "10:00",
+            "endTime": "10:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "10:25",
+            "endTime": "10:30",
+            "duration": "5"
+        },
+        {
+            "task": "COEN-317 Study",
+            "startTime": "10:30",
+            "endTime": "10:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "10:55",
+            "endTime": "11:00",
+            "duration": "5"
+        },
+        {
+            "task": "ENGR-392 Study",
+            "startTime": "11:00",
+            "endTime": "11:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "11:25",
+            "endTime": "11:30",
+            "duration": "5"
+        },
+        {
+            "task": "ELEC-342 Study",
+            "startTime": "11:30",
+            "endTime": "11:55",
+            "duration": "25"
+        },
+        {
+            "task": "Lunch/Break",
+            "startTime": "11:55",
+            "endTime": "13:00",
+            "duration": "55"
+        },
+        {
+            "task": "COEN-316 Study",
+            "startTime": "13:00",
+            "endTime": "13:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "13:25",
+            "endTime": "13:30",
+            "duration": "5"
+        },
+        {
+            "task": "COEN-317 Study",
+            "startTime": "13:30",
+            "endTime": "13:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "13:55",
+            "endTime": "14:00",
+            "duration": "5"
+        },
+        {
+            "task": "ENGR-392 Study",
+            "startTime": "14:00",
+            "endTime": "14:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "14:25",
+            "endTime": "14:30",
+            "duration": "5"
+        },
+        {
+            "task": "ELEC-342 Study",
+            "startTime": "14:30",
+            "endTime": "14:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "14:55",
+            "endTime": "15:00",
+            "duration": "5"
+        },
+        {
+            "task": "COEN-316 Study",
+            "startTime": "15:00",
+            "endTime": "15:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "15:25",
+            "endTime": "15:30",
+            "duration": "5"
+        },
+        {
+            "task": "COEN-317 Study",
+            "startTime": "15:30",
+            "endTime": "15:55",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "15:55",
+            "endTime": "16:00",
+            "duration": "5"
+        },
+        {
+            "task": "ENGR-392 Study",
+            "startTime": "16:00",
+            "endTime": "16:25",
+            "duration": "25"
+        },
+        {
+            "task": "Break",
+            "startTime": "16:25",
+            "endTime": "16:30",
+            "duration": "5"
+        },
+        {
+            "task": "ELEC-342 Study",
+            "startTime": "16:30",
+            "endTime": "16:55",
+            "duration": "25"
+        },
+        {
+            "task": "Relax and Game Break",
+            "startTime": "16:55",
+            "endTime": "18:00",
+            "duration": "65"
+        },
+        {
+            "task": "DropGenie",
+            "startTime": "18:00",
+            "endTime": "21:00",
             "duration": "180"
         }
     ]
