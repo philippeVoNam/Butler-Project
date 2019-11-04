@@ -7,6 +7,7 @@ import pyscreenshot as ImageGrab
 from pynput.mouse import Listener
 import clipboard
 import os
+import sys
 # User Imports
 
 # * Code
@@ -49,7 +50,16 @@ class Screenshot():
         imageName = input("Filename : ")
         imageFileName = imageName +'.png'
         im.save(imageFileName)
-        imageFilePath = os.path.realpath(imageFileName)
+
+        pathType = int(input("Would you like the relative or absolute path to file ? (1 : relative, 0 : absolute) : "))
+
+        if pathType == 1:
+            imageFilePath = os.path.relpath(imageFileName)
+        elif pathType == 0:
+            imageFilePath = os.path.realpath(imageFileName)
+        else:
+            print("invalid input")
+            sys.exit()
 
         # Generating the markdown string 
         markdownStr = "![ Image : " + imageName + " ]" + "(" + imageFilePath + ")"

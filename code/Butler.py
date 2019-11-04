@@ -11,6 +11,7 @@ from termcolor import colored, cprint
 from datetime import datetime
 import sys
 import notify2
+import subprocess
 # User Imports
 from Weather import Weather
 from Schedule import Schedule
@@ -178,3 +179,10 @@ class Butler():
         n = notify2.Notification(title, message)
         n.show()
         
+    def convertMD2PDF(self, mdFile):
+        """ converts the given md file into a pdf file """
+        mdFileStr = mdFile + ".md"
+        pdfFileStr = mdFile + ".pdf"
+        command = "pandoc -o " + pdfFileStr + " " + mdFileStr + " -f markdown-implicit_figures"
+        print(command)
+        os.system(command)

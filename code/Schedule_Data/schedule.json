@@ -3,13 +3,13 @@
         {
             "task": "Wake Up !",
             "startTime": "07:00",
-            "endTime": "",
+            "endTime": "07:30",
             "duration": ""
         },
         {
             "task": "Go to School",
             "startTime": "07:30",
-            "endTime": "",
+            "endTime": "08:30",
             "duration": ""
         },
         {
@@ -21,7 +21,7 @@
         {
             "task": "Lunch/Break",
             "startTime": "12:30",
-            "endTime": "01:00",
+            "endTime": "13:00",
             "duration": "30"
         },
         {
@@ -167,13 +167,13 @@
         {
             "task": "Wake Up !",
             "startTime": "07:00",
-            "endTime": "",
+            "endTime": "07:30",
             "duration": ""
         },
         {
             "task": "Go To School",
             "startTime": "07:30",
-            "endTime": "",
+            "endTime": "08:30",
             "duration": ""
         },
         {
@@ -245,7 +245,7 @@
         {
             "task": "COEN-316 Class",
             "startTime": "11:45",
-            "endTime": "13:00",
+            "endTime": "13:00",     
             "duration": "75"
         },
         {
@@ -319,13 +319,13 @@
         {
             "task": "Wake Up !",
             "startTime": "07:00",
-            "endTime": "",
+            "endTime": "07:30",
             "duration": ""
         },
         {
             "task": "Go To School",
             "startTime": "07:30",
-            "endTime": "",
+            "endTime": "08:30",
             "duration": ""
         },
         {
@@ -471,13 +471,13 @@
         {
             "task": "Wake Up !",
             "startTime": "07:00",
-            "endTime": "",
+            "endTime": "07:30",
             "duration": ""
         },
         {
             "task": "Go To School",
             "startTime": "07:30",
-            "endTime": "",
+            "endTime": "08:30",
             "duration": ""
         },
         {
@@ -605,13 +605,13 @@
         {
             "task": "Wake Up !",
             "startTime": "07:00",
-            "endTime": "",
+            "endTime": "07:30",
             "duration": ""
         },
         {
             "task": "Go To School",
             "startTime": "07:30",
-            "endTime": "",
+            "endTime": "08:45",
             "duration": ""
         },
         {
@@ -697,7 +697,7 @@
         {
             "task": "Wake Up !",
             "startTime": "09:00",
-            "endTime": "",
+            "endTime": "09:30",
             "duration": ""
         },
         {
@@ -861,7 +861,7 @@
         {
             "task": "Wake Up !",
             "startTime": "09:00",
-            "endTime": "",
+            "endTime": "09:30",
             "duration": ""
         },
         {

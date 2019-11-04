@@ -15,14 +15,17 @@ butler = Butler()
 # CLI Parser
 parser = argparse.ArgumentParser()
 group = parser.add_mutually_exclusive_group()
-parser.add_argument('--report', action='store_true')
+parser.add_argument('--report', action='store_true', help='report status of day')
 
-parser.add_argument('--screen', action='store_true')
+parser.add_argument('--screen', action='store_true', help='take a screenshot and save markdown text to clipboard')
 
-parser.add_argument('--task', action='store_true')
-parser.add_argument('--day', action='store_true')
+parser.add_argument('--mdpdf', action='store_true', help='convert given markdown file into pdf file')
+parser.add_argument('--file', action='store', type=str)
 
-parser.add_argument('--timer', action='store_true')
+parser.add_argument('--task', action='store_true' , help='displays the current task')
+parser.add_argument('--day', action='store_true', help='displays the tasks for the day')
+
+parser.add_argument('--timer', action='store_true', help='runs a timer')
 parser.add_argument('--mode', action='store', type=str)
 parser.add_argument('--endTime', action='store', type=int)
 group.add_argument('--sec', action='store_true')
@@ -57,3 +60,7 @@ elif args.task:
         i = 0
         while True:
             butler.announce_current_task()
+
+elif args.mdpdf:
+    file = args.file
+    butler.convertMD2PDF(file)
